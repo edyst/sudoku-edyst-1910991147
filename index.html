@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="icon" sizes="192x192" href="https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/97/f2/a697f289-edd8-fed4-1680-687694bbdd46/source/512x512bb.jpg">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script type="text/javascript" src="./assets/script.js"></script>
+</head>
+<body>
+    <div class="first">
+        <div class="level">
+            <button class="lev" id="easybtn" onClick="changeDifficulty(1)">Easy</button>
+            <button class="lev" id="mediumbtn" onClick="changeDifficulty(2)">Medium</button>
+            <button class="lev" id="hardbtn" onClick="changeDifficulty(3)">Hard</button>
+        </div>
+    </div>
+    <div class="game">
+        <div id="board"></div>       
+    </div>
+    <div class="check">
+        <center><button class="valset" onClick="validate()">Validate</button></center>
+        <br>
+        <center><button class="valset" onClick="reset()">Reset</button></center>
+        </div>
+</body>
+</html>

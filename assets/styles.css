@@ -1,0 +1,129 @@
+:root {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 25px;
+    /* height:10vh; */
+}
+html {
+    box-sizing: border-box;
+}
+.tcenter {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.topBorder {
+    border-top: 2px solid #696969 !important;
+}
+.bottomBorder {
+    border-bottom: 2px solid #696969 !important;
+}
+.rightBorder {
+    border-right: 2px solid #696969 !important;
+}
+.leftBorder {
+    border-left: 2px solid  #696969 !important;
+}
+.first {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.level {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    justify-content: space-between;
+    margin-top: 0px;
+
+}
+.lev{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight:500;
+    border:2px solid white;
+    border-radius:7px;
+    text-align: center;
+    justify-self: center;
+    width: auto;
+}
+/* .lev:hover {
+    border-color: rgb(0, 153, 255);
+ } */
+.cell {
+    border: 1px #bec6d4 solid;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    margin: 0px;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    user-select: none;
+
+}
+.cell:hover {
+    background-color: #89CFF0;
+}
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#board {
+    padding-top: 0px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px;
+    min-width: 600px;
+    min-height: 600px;
+    padding-bottom: 0;
+}
+.valset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid white;
+    border-radius:7px;
+    cursor: pointer;
+    margin-top: 0px;
+    font-size: 25px; 
+    /* margin-bottom: 1rem; */
+}
+button:hover {
+    border-color: rgb(0, 153, 255);
+ }
+.check{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.prefilled {
+    background-color: #ada49463 !important;
+    user-select: none;
+    color: 	#707070;
+}
+p.highlighted {
+    background-color: #E1EBEE;
+}
+p.selected {
+    background-color: rgb(178 222 243);
+
+}
+p.incorrect {
+    color: red !important;
+}
+p.modified {
+    background-color: rgb(129, 194, 224);
+}
+p.dup {
+    background-color: #82c8df !important;
+}
